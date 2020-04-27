@@ -1,12 +1,10 @@
 language: python
 
 python:
-  - "3.4"
-  - "2.7"
-  - "pypy"
+  - "3.7"
 
 env:
-  - "$DJANGO_DRF='django<1.8' 'djangorestframework<3'"
+  # - "$DJANGO_DRF='django<1.8' 'djangorestframework<3'"
   - "$DJANGO_DRF='djangorestframework>=3'"
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
